@@ -1,0 +1,28 @@
+# Jekyll 設定檔
+title: 七、八年級資訊基礎能力與素養融入式學習方案
+description: 系統性培養學生資訊基礎能力與數位公民素養
+lang: zh-Hant
+encoding: UTF-8
+
+# 建置設定
+markdown: kramdown
+theme: minima
+
+# 排除檔案
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+
+# 預設值
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+      lang: zh-Hant
+
+# GitHub Pages 設定
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
